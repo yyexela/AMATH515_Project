@@ -1,0 +1,3 @@
+[submodule "submodules/minGPT"]
+	path = submodules/minGPT
+	url = git@github.com:yyexela/minGPT.git
