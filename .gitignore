@@ -1,2 +1,6 @@
 Saved_Models
 Saved_Models/*
+Datasets
+Datasets/*
+__pycache__/**
+**/__pycache__/**
