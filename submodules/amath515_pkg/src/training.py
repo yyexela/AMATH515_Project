@@ -142,7 +142,5 @@ def min_gpt_batch_end_callback(model, mingpt_config, train_dataset, trainer):
             print()
 
     if trainer.iter_num+1 == mingpt_config.trainer.max_iters:
-        # save the last model
-        ckpt_path = os.path.join(mingpt_config.system.work_dir, pkg_config['mingpt_saved_filename'])
-        print(f"Saving model to \"{ckpt_path}\"")
-        torch.save(model.state_dict(), ckpt_path)
+        # Do something after training
+        pass
