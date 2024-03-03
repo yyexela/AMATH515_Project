@@ -2,7 +2,7 @@
 CIFAR10_batch_size: 4096
 CIFAR10_shuffle: False
 CIFAR10_learning_rate: 0.001
-CIFAR10_epochs: 1
+CIFAR10_epochs: 20
 CIFAR10_np_seed: 0
 CIFAR10_torch_seed: 0
 CIFAR10_saved_filename: "cf10.ckpt"
