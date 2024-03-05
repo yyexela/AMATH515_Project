@@ -6,19 +6,20 @@ CIFAR10_epochs: 20
 CIFAR10_np_seed: 0
 CIFAR10_torch_seed: 0
 CIFAR10_saved_filename: "cf10.ckpt"
-CIFAR10_SGD_method: 'Adagrad' # one of: "Adam", "AdamW", "RMSprop" or "Adagrad"
+CIFAR10_SGD_method: 'RMSprop' # one of: "Adam", "AdamW", "RMSprop" or "Adagrad"
 CIFAR10_Scheduler: 'CosineAnnealingLR' # one of: "StepLR" or "CosineAnnealingLR", 
 
 # mingpt default configuration values
-mingpt_batch_size: 4096
+mingpt_batch_size: 64 # 64
+mingpt_block_size: 128 # 128
 mingpt_shuffle: False
 mingpt_learning_rate: 0.001
 mingpt_iters: 2000
 mingpt_np_seed: 0
 mingpt_torch_seed: 0
 mingpt_saved_filename: "mingpt.ckpt"
-mingpt_SGD_method: 'Adagrad' # one of: "Adam", "AdamW", "RMSprop" or "Adagrad"
-mingpt_Scheduler: 'StepLR' # one of: "StepLR" or "CosineAnnealingLR", 
+mingpt_SGD_method: 'RMSprop' # one of: "Adam", "AdamW", "RMSprop" or "Adagrad"
+mingpt_Scheduler: 'CosineAnnealingLR' # one of: "StepLR" or "CosineAnnealingLR", 
 
 # Generic config values
 device: 'cpu' # Train on CPU by default

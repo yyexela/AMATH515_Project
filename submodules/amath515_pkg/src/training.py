@@ -16,7 +16,7 @@ def get_optimizer(optimizer_str, parameters, lr, betas=(0.9,0.999)):
     elif optimizer_str == 'Adam':
         optimizer = torch.optim.Adam(parameters, lr=lr, betas=betas)
     elif optimizer_str == 'RMSprop':
-        optimizer = torch.optim.Adam(parameters, lr=lr)
+        optimizer = torch.optim.RMSprop(parameters, lr=lr)
     elif optimizer_str == 'Adagrad':
         optimizer = torch.optim.Adagrad(parameters, lr=lr)
     else:
