@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the code used for the final project for AMATH 515 at the University of Washington.
+This repository contains the code used for the final project for AMATH 515 at the University of Washington. The final PDF is located at `writeup.pdf`.
 
 ## Initialize Datasets/Directories
 
