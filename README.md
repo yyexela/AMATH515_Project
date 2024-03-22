@@ -16,6 +16,9 @@ Run `setup.sh` from the root directory of the repository.
 `mingpt.ipynb`
 - Contains the notebook to run miniGPT trained on `tiny-shakespeare`.
 
+`make_plots.ipynb`
+- Helper notebook used to generate final PDF plots.
+
 ## Configuration
 
 To configure hyperparameters, please modify `./submodules/amath515_pkg/config/config.yaml`.
